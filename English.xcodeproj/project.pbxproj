@@ -7,16 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B1E30E1273CF69A00D6CCA1 /* ShowWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1E30E0273CF69A00D6CCA1 /* ShowWordViewController.swift */; };
+		4B47B27F274667A8006FFBFC /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47B27E274667A8006FFBFC /* ProfilViewController.swift */; };
+		4B47B28127466A75006FFBFC /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47B28027466A75006FFBFC /* SettingViewController.swift */; };
+		4B5041B6273BE54400438162 /* EducationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5041B5273BE54400438162 /* EducationCollectionViewCell.swift */; };
+		4B5041B8273BF02B00438162 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5041B7273BF02B00438162 /* EducationViewController.swift */; };
+		4B5041BA273BFBC900438162 /* SelectTrueWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5041B9273BFBC900438162 /* SelectTrueWordViewController.swift */; };
+		4B8BA26627439B18002F63F7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8BA26527439B18002F63F7 /* LoginViewController.swift */; };
+		4B8BA26827439B37002F63F7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8BA26727439B37002F63F7 /* RegisterViewController.swift */; };
+		4B8BA26B2743B4EF002F63F7 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8BA26A2743B4EF002F63F7 /* ViewExtension.swift */; };
+		4B8C4E00273A9FA100D637C0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C4DFF273A9FA100D637C0 /* MainViewController.swift */; };
+		4B8C4E05273AA00F00D637C0 /* TypeStudyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C4E04273AA00F00D637C0 /* TypeStudyCollectionViewCell.swift */; };
+		4B8C4E07273AA4D600D637C0 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C4E06273AA4D600D637C0 /* CategoryViewController.swift */; };
+		4BBC2FDE2744D83100D7A39B /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC2FDD2744D83100D7A39B /* ViewControllerExtension.swift */; };
+		4BBC2FE12744D9B800D7A39B /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC2FE02744D9B700D7A39B /* Authorization.swift */; };
+		4BBC2FE32744E09D00D7A39B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC2FE22744E09D00D7A39B /* UserModel.swift */; };
+		4BBC2FE62744F41C00D7A39B /* EmailCheker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC2FE52744F41B00D7A39B /* EmailCheker.swift */; };
+		4BBC2FE82745019400D7A39B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC2FE72745019400D7A39B /* FirstViewController.swift */; };
+		4BBC2FEC274505A000D7A39B /* WordTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC2FEB274505A000D7A39B /* WordTypeModel.swift */; };
+		4BBC2FEE274505EB00D7A39B /* WordType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC2FED274505EB00D7A39B /* WordType.swift */; };
 		4BFD9B212739461100E91159 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD9B202739461100E91159 /* AppDelegate.swift */; };
 		4BFD9B232739461100E91159 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD9B222739461100E91159 /* SceneDelegate.swift */; };
-		4BFD9B252739461100E91159 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD9B242739461100E91159 /* ViewController.swift */; };
 		4BFD9B282739461100E91159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD9B262739461100E91159 /* Main.storyboard */; };
-		4BFD9B2B2739461100E91159 /* English.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD9B292739461100E91159 /* English.xcdatamodeld */; };
 		4BFD9B2D2739461200E91159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD9B2C2739461200E91159 /* Assets.xcassets */; };
 		4BFD9B302739461200E91159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD9B2E2739461200E91159 /* LaunchScreen.storyboard */; };
 		4BFD9B3B2739461200E91159 /* EnglishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD9B3A2739461200E91159 /* EnglishTests.swift */; };
 		4BFD9B452739461200E91159 /* EnglishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD9B442739461200E91159 /* EnglishUITests.swift */; };
 		4BFD9B472739461200E91159 /* EnglishUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD9B462739461200E91159 /* EnglishUITestsLaunchTests.swift */; };
+		4BFD9B67273958CF00E91159 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD9B66273958CF00E91159 /* Words.swift */; };
+		4BFD9B6A2739594200E91159 /* WordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD9B692739594200E91159 /* WordModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +56,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B1E30E0273CF69A00D6CCA1 /* ShowWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWordViewController.swift; sourceTree = "<group>"; };
+		4B47B27E274667A8006FFBFC /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
+		4B47B28027466A75006FFBFC /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		4B5041B5273BE54400438162 /* EducationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B5041B7273BF02B00438162 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
+		4B5041B9273BFBC900438162 /* SelectTrueWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTrueWordViewController.swift; sourceTree = "<group>"; };
+		4B8BA26527439B18002F63F7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4B8BA26727439B37002F63F7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4B8BA26A2743B4EF002F63F7 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		4B8C4DFF273A9FA100D637C0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4B8C4E04273AA00F00D637C0 /* TypeStudyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeStudyCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B8C4E06273AA4D600D637C0 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		4BBC2FDD2744D83100D7A39B /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		4BBC2FE02744D9B700D7A39B /* Authorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authorization.swift; sourceTree = "<group>"; };
+		4BBC2FE22744E09D00D7A39B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		4BBC2FE52744F41B00D7A39B /* EmailCheker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailCheker.swift; sourceTree = "<group>"; };
+		4BBC2FE72745019400D7A39B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		4BBC2FEB274505A000D7A39B /* WordTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTypeModel.swift; sourceTree = "<group>"; };
+		4BBC2FED274505EB00D7A39B /* WordType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordType.swift; sourceTree = "<group>"; };
 		4BFD9B1D2739461100E91159 /* English.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = English.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFD9B202739461100E91159 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BFD9B222739461100E91159 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4BFD9B242739461100E91159 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4BFD9B272739461100E91159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4BFD9B2A2739461100E91159 /* English.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = English.xcdatamodel; sourceTree = "<group>"; };
 		4BFD9B2C2739461200E91159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BFD9B2F2739461200E91159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BFD9B312739461200E91159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +87,8 @@
 		4BFD9B402739461200E91159 /* EnglishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnglishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFD9B442739461200E91159 /* EnglishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishUITests.swift; sourceTree = "<group>"; };
 		4BFD9B462739461200E91159 /* EnglishUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4BFD9B66273958CF00E91159 /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
+		4BFD9B692739594200E91159 /* WordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +116,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B8BA2692743B4D5002F63F7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4B8BA26A2743B4EF002F63F7 /* ViewExtension.swift */,
+				4BBC2FDD2744D83100D7A39B /* ViewControllerExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4B8C4E01273A9FC900D637C0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4B8C4E02273A9FD300D637C0 /* CollectionViewCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4B8C4E02273A9FD300D637C0 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4B8C4E04273AA00F00D637C0 /* TypeStudyCollectionViewCell.swift */,
+				4B5041B5273BE54400438162 /* EducationCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		4BBC2FDF2744D89600D7A39B /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				4BBC2FE02744D9B700D7A39B /* Authorization.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		4BBC2FE42744EFD500D7A39B /* User */ = {
+			isa = PBXGroup;
+			children = (
+				4BBC2FE22744E09D00D7A39B /* UserModel.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		4BBC2FEA2745057E00D7A39B /* WordType */ = {
+			isa = PBXGroup;
+			children = (
+				4BBC2FED274505EB00D7A39B /* WordType.swift */,
+				4BBC2FEB274505A000D7A39B /* WordTypeModel.swift */,
+			);
+			path = WordType;
+			sourceTree = "<group>";
+		};
 		4BFD9B142739461100E91159 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +190,12 @@
 		4BFD9B1F2739461100E91159 /* English */ = {
 			isa = PBXGroup;
 			children = (
-				4BFD9B202739461100E91159 /* AppDelegate.swift */,
-				4BFD9B222739461100E91159 /* SceneDelegate.swift */,
-				4BFD9B242739461100E91159 /* ViewController.swift */,
-				4BFD9B262739461100E91159 /* Main.storyboard */,
-				4BFD9B2C2739461200E91159 /* Assets.xcassets */,
-				4BFD9B2E2739461200E91159 /* LaunchScreen.storyboard */,
+				4B8BA2692743B4D5002F63F7 /* Extension */,
+				4BFD9B652739587600E91159 /* Delegates */,
+				4BFD9B632739584100E91159 /* Views */,
+				4BFD9B622739583800E91159 /* Models */,
+				4BFD9B642739584B00E91159 /* Controllers */,
 				4BFD9B312739461200E91159 /* Info.plist */,
-				4BFD9B292739461100E91159 /* English.xcdatamodeld */,
 			);
 			path = English;
 			sourceTree = "<group>";
@@ -128,6 +215,64 @@
 				4BFD9B462739461200E91159 /* EnglishUITestsLaunchTests.swift */,
 			);
 			path = EnglishUITests;
+			sourceTree = "<group>";
+		};
+		4BFD9B622739583800E91159 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4BBC2FE52744F41B00D7A39B /* EmailCheker.swift */,
+				4BFD9B682739593000E91159 /* Words */,
+				4BBC2FEA2745057E00D7A39B /* WordType */,
+				4BBC2FE42744EFD500D7A39B /* User */,
+				4BBC2FDF2744D89600D7A39B /* Authorization */,
+				4BFD9B2C2739461200E91159 /* Assets.xcassets */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4BFD9B632739584100E91159 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B8C4E01273A9FC900D637C0 /* Cells */,
+				4BFD9B262739461100E91159 /* Main.storyboard */,
+				4BFD9B2E2739461200E91159 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4BFD9B642739584B00E91159 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4BBC2FE72745019400D7A39B /* FirstViewController.swift */,
+				4B8BA26527439B18002F63F7 /* LoginViewController.swift */,
+				4B8BA26727439B37002F63F7 /* RegisterViewController.swift */,
+				4B8C4DFF273A9FA100D637C0 /* MainViewController.swift */,
+				4B8C4E06273AA4D600D637C0 /* CategoryViewController.swift */,
+				4B5041B7273BF02B00438162 /* EducationViewController.swift */,
+				4B1E30E0273CF69A00D6CCA1 /* ShowWordViewController.swift */,
+				4B5041B9273BFBC900438162 /* SelectTrueWordViewController.swift */,
+				4B47B27E274667A8006FFBFC /* ProfilViewController.swift */,
+				4B47B28027466A75006FFBFC /* SettingViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4BFD9B652739587600E91159 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4BFD9B202739461100E91159 /* AppDelegate.swift */,
+				4BFD9B222739461100E91159 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		4BFD9B682739593000E91159 /* Words */ = {
+			isa = PBXGroup;
+			children = (
+				4BFD9B66273958CF00E91159 /* Words.swift */,
+				4BFD9B692739594200E91159 /* WordModel.swift */,
+			);
+			path = Words;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +406,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BFD9B252739461100E91159 /* ViewController.swift in Sources */,
+				4B47B27F274667A8006FFBFC /* ProfilViewController.swift in Sources */,
+				4BFD9B6A2739594200E91159 /* WordModel.swift in Sources */,
+				4BBC2FE82745019400D7A39B /* FirstViewController.swift in Sources */,
+				4BBC2FE32744E09D00D7A39B /* UserModel.swift in Sources */,
+				4B1E30E1273CF69A00D6CCA1 /* ShowWordViewController.swift in Sources */,
 				4BFD9B212739461100E91159 /* AppDelegate.swift in Sources */,
-				4BFD9B2B2739461100E91159 /* English.xcdatamodeld in Sources */,
+				4B8C4E07273AA4D600D637C0 /* CategoryViewController.swift in Sources */,
+				4B5041BA273BFBC900438162 /* SelectTrueWordViewController.swift in Sources */,
+				4BBC2FEE274505EB00D7A39B /* WordType.swift in Sources */,
+				4B5041B6273BE54400438162 /* EducationCollectionViewCell.swift in Sources */,
+				4BBC2FDE2744D83100D7A39B /* ViewControllerExtension.swift in Sources */,
+				4BBC2FEC274505A000D7A39B /* WordTypeModel.swift in Sources */,
+				4B8BA26827439B37002F63F7 /* RegisterViewController.swift in Sources */,
+				4B8C4E05273AA00F00D637C0 /* TypeStudyCollectionViewCell.swift in Sources */,
+				4BBC2FE62744F41C00D7A39B /* EmailCheker.swift in Sources */,
+				4BBC2FE12744D9B800D7A39B /* Authorization.swift in Sources */,
+				4B5041B8273BF02B00438162 /* EducationViewController.swift in Sources */,
 				4BFD9B232739461100E91159 /* SceneDelegate.swift in Sources */,
+				4B47B28127466A75006FFBFC /* SettingViewController.swift in Sources */,
+				4B8BA26627439B18002F63F7 /* LoginViewController.swift in Sources */,
+				4B8BA26B2743B4EF002F63F7 /* ViewExtension.swift in Sources */,
+				4BFD9B67273958CF00E91159 /* Words.swift in Sources */,
+				4B8C4E00273A9FA100D637C0 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,14 +613,16 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = student.English;
+				PRODUCT_BUNDLE_IDENTIFIER = student.EnglishS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -477,14 +643,16 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = student.English;
+				PRODUCT_BUNDLE_IDENTIFIER = student.EnglishS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -628,19 +796,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4BFD9B292739461100E91159 /* English.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4BFD9B2A2739461100E91159 /* English.xcdatamodel */,
-			);
-			currentVersion = 4BFD9B2A2739461100E91159 /* English.xcdatamodel */;
-			path = English.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4BFD9B152739461100E91159 /* Project object */;
 }

@@ -1,0 +1,24 @@
+//
+//  WordModel.swift
+//  English
+//
+//  Created by Преподаватель on 08.11.2021.
+//
+
+import Foundation
+
+
+struct WordModel: Codable, Equatable{
+    
+    let id: Int
+    let idwordType: Int
+    let word1: String
+    let transcription: String
+    let translation: String
+}
+
+enum StateWord: Int{
+    case study = 0
+    case consolidate = 1
+    case repeating = 2
+}
