@@ -17,7 +17,7 @@ class Authorization{
         let parameters = "{\n  \"email\": \"\(email)\",\n  \"password\": \"\(password)\"\n}"
         let postData = parameters.data(using: .utf8)
 
-        var request = URLRequest(url: URL(string: "http://94.228.124.99/api/user/login")!,timeoutInterval: 10)
+        var request = URLRequest(url: URL(string: "\(Env.baseUrlFromUser)/user/login")!,timeoutInterval: 10)
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         
         request.httpMethod = "POST"
@@ -49,10 +49,10 @@ class Authorization{
     
     func register(email: String, name: String, password: String, closure: @escaping (_ isAuth: Bool, _ content: UserModel?) -> ()){
 
-        let parameters = "{\n  \"name\": \"\(email)\",\n  \"email\": \"\(name)\",\n  \"password\": \"\(password)\"\n}"
+        let parameters = "{\n  \"name\": \"\(name)\",\n  \"email\": \"\(email)\",\n  \"password\": \"\(password)\"\n}"
         let postData = parameters.data(using: .utf8)
 
-        var request = URLRequest(url: URL(string: "http://94.228.124.99/api/user/register")!,timeoutInterval: 10)
+        var request = URLRequest(url: URL(string: "\(Env.baseUrlFromUser)/user/register")!,timeoutInterval: 10)
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         
         request.httpMethod = "POST"

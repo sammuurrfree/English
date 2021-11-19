@@ -18,7 +18,7 @@ class Words{
         let parameters = "{\n  \"idWordType\": \(idWordType),\n  \"idWordState\": \(idWordState),\n  \"count\": \(count)\n}"
         let postData = parameters.data(using: .utf8)
 
-        var request = URLRequest(url: URL(string: "http://94.228.124.99/api/user/words/\(userDefualts.integer(forKey: "userId"))")!,timeoutInterval: 10)
+        var request = URLRequest(url: URL(string: "\(Env.baseUrlFromUser)/user/words/\(userDefualts.integer(forKey: "userId"))")!,timeoutInterval: 10)
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
 
         request.httpMethod = "POST"
@@ -45,7 +45,7 @@ class Words{
     
     func getRandomWords(randomWordCunt: Int, clouser: @escaping(_ content: [WordModel]?) -> ()){
 
-        var request = URLRequest(url: URL(string: "http://94.228.124.99/api/words")!,timeoutInterval: 20)
+        var request = URLRequest(url: URL(string: "\(Env.baseUrl)/api/words")!,timeoutInterval: 20)
         request.httpMethod = "GET"
 
         URLSession.shared.dataTask(with: request) { data, response, error in
@@ -82,7 +82,7 @@ class Words{
         let parameters = "{\n  \"idWord\": \(idWord),\n  \"idState\": \(idState)\n}"
         let postData = parameters.data(using: .utf8)
         
-        var request = URLRequest(url: URL(string: "http://94.228.124.99/api/user/addwords/\(UserDefaults().integer(forKey: "userId"))")!,timeoutInterval: 20)
+        var request = URLRequest(url: URL(string: "\(Env.baseUrlFromUser)/user/addwords/\(UserDefaults().integer(forKey: "userId"))")!,timeoutInterval: 20)
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         
         request.httpMethod = "POST"
@@ -106,5 +106,51 @@ class Words{
         semaphore.wait()
         
         return isStatus
+    }
+    
+    func studyWordDay() -> Int {
+        let semaphore = DispatchSemaphore (value: 0)
+        var count = 0
+        
+        var request = URLRequest(url: URL(string: "\(Env.baseUrlFromUser)/user/learnedword/today/\(userDefualts.integer(forKey: "userId"))")!,timeoutInterval: 10)
+        request.httpMethod = "GET"
+        
+        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            guard let data = data else {
+                semaphore.signal()
+                return
+            }
+            count =  (try? JSONDecoder().decode(CountData.self, from: data))?.count ?? 0
+            semaphore.signal()
+        }
+        
+        task.resume()
+        semaphore.wait()
+        
+        return count
+    }
+    
+    func studyWordAll() -> [Int] {
+        let semaphore = DispatchSemaphore (value: 0)
+        var count:[Int] = []
+        
+        var request = URLRequest(url: URL(string: "\(Env.baseUrlFromUser)/user/learnedword/alltime/\(userDefualts.integer(forKey: "userId"))")!,timeoutInterval: 10)
+        request.httpMethod = "GET"
+        
+        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            guard let data = data else {
+                semaphore.signal()
+                return
+            }
+            count.append((try? JSONDecoder().decode(CountDataAllTime.self, from: data))?.count ?? 0)
+            count.append((try? JSONDecoder().decode(CountDataAllTime.self, from: data))?.allWordCount ?? 0)
+            
+            semaphore.signal()
+        }
+        
+        task.resume()
+        semaphore.wait()
+        
+        return count
     }
 }

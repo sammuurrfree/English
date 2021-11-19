@@ -13,6 +13,11 @@
 		4B5041B6273BE54400438162 /* EducationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5041B5273BE54400438162 /* EducationCollectionViewCell.swift */; };
 		4B5041B8273BF02B00438162 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5041B7273BF02B00438162 /* EducationViewController.swift */; };
 		4B5041BA273BFBC900438162 /* SelectTrueWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5041B9273BFBC900438162 /* SelectTrueWordViewController.swift */; };
+		4B8973682747A2F700F397C1 /* ChangeDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8973672747A2F700F397C1 /* ChangeDataViewController.swift */; };
+		4B89736C2747A3A900F397C1 /* ChangeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B89736B2747A3A900F397C1 /* ChangeDataModel.swift */; };
+		4B89736E2747A57B00F397C1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B89736D2747A57B00F397C1 /* User.swift */; };
+		4B8973712747C67300F397C1 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8973702747C67300F397C1 /* Env.swift */; };
+		4B8973732747DAEB00F397C1 /* SendMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8973722747DAEB00F397C1 /* SendMessageViewController.swift */; };
 		4B8BA26627439B18002F63F7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8BA26527439B18002F63F7 /* LoginViewController.swift */; };
 		4B8BA26827439B37002F63F7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8BA26727439B37002F63F7 /* RegisterViewController.swift */; };
 		4B8BA26B2743B4EF002F63F7 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8BA26A2743B4EF002F63F7 /* ViewExtension.swift */; };
@@ -62,6 +67,11 @@
 		4B5041B5273BE54400438162 /* EducationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationCollectionViewCell.swift; sourceTree = "<group>"; };
 		4B5041B7273BF02B00438162 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
 		4B5041B9273BFBC900438162 /* SelectTrueWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTrueWordViewController.swift; sourceTree = "<group>"; };
+		4B8973672747A2F700F397C1 /* ChangeDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeDataViewController.swift; sourceTree = "<group>"; };
+		4B89736B2747A3A900F397C1 /* ChangeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeDataModel.swift; sourceTree = "<group>"; };
+		4B89736D2747A57B00F397C1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4B8973702747C67300F397C1 /* Env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		4B8973722747DAEB00F397C1 /* SendMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageViewController.swift; sourceTree = "<group>"; };
 		4B8BA26527439B18002F63F7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4B8BA26727439B37002F63F7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		4B8BA26A2743B4EF002F63F7 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
@@ -116,6 +126,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B8973662747A2BD00F397C1 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4B47B28027466A75006FFBFC /* SettingViewController.swift */,
+				4B47B27E274667A8006FFBFC /* ProfilViewController.swift */,
+				4B8973672747A2F700F397C1 /* ChangeDataViewController.swift */,
+				4B8973722747DAEB00F397C1 /* SendMessageViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		4B8973692747A36A00F397C1 /* Change */ = {
+			isa = PBXGroup;
+			children = (
+				4B89736B2747A3A900F397C1 /* ChangeDataModel.swift */,
+			);
+			path = Change;
+			sourceTree = "<group>";
+		};
+		4B89736A2747A38000F397C1 /* Email */ = {
+			isa = PBXGroup;
+			children = (
+				4BBC2FE52744F41B00D7A39B /* EmailCheker.swift */,
+			);
+			path = Email;
+			sourceTree = "<group>";
+		};
+		4B89736F2747C5E700F397C1 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				4B8973702747C67300F397C1 /* Env.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
 		4B8BA2692743B4D5002F63F7 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				4BBC2FE22744E09D00D7A39B /* UserModel.swift */,
+				4B89736D2747A57B00F397C1 /* User.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -220,7 +266,9 @@
 		4BFD9B622739583800E91159 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				4BBC2FE52744F41B00D7A39B /* EmailCheker.swift */,
+				4B89736F2747C5E700F397C1 /* EndPoint */,
+				4B8973692747A36A00F397C1 /* Change */,
+				4B89736A2747A38000F397C1 /* Email */,
 				4BFD9B682739593000E91159 /* Words */,
 				4BBC2FEA2745057E00D7A39B /* WordType */,
 				4BBC2FE42744EFD500D7A39B /* User */,
@@ -243,6 +291,7 @@
 		4BFD9B642739584B00E91159 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4B8973662747A2BD00F397C1 /* Settings */,
 				4BBC2FE72745019400D7A39B /* FirstViewController.swift */,
 				4B8BA26527439B18002F63F7 /* LoginViewController.swift */,
 				4B8BA26727439B37002F63F7 /* RegisterViewController.swift */,
@@ -251,8 +300,6 @@
 				4B5041B7273BF02B00438162 /* EducationViewController.swift */,
 				4B1E30E0273CF69A00D6CCA1 /* ShowWordViewController.swift */,
 				4B5041B9273BFBC900438162 /* SelectTrueWordViewController.swift */,
-				4B47B27E274667A8006FFBFC /* ProfilViewController.swift */,
-				4B47B28027466A75006FFBFC /* SettingViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -406,8 +453,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B89736E2747A57B00F397C1 /* User.swift in Sources */,
+				4B8973682747A2F700F397C1 /* ChangeDataViewController.swift in Sources */,
 				4B47B27F274667A8006FFBFC /* ProfilViewController.swift in Sources */,
 				4BFD9B6A2739594200E91159 /* WordModel.swift in Sources */,
+				4B89736C2747A3A900F397C1 /* ChangeDataModel.swift in Sources */,
 				4BBC2FE82745019400D7A39B /* FirstViewController.swift in Sources */,
 				4BBC2FE32744E09D00D7A39B /* UserModel.swift in Sources */,
 				4B1E30E1273CF69A00D6CCA1 /* ShowWordViewController.swift in Sources */,
@@ -423,7 +473,9 @@
 				4BBC2FE62744F41C00D7A39B /* EmailCheker.swift in Sources */,
 				4BBC2FE12744D9B800D7A39B /* Authorization.swift in Sources */,
 				4B5041B8273BF02B00438162 /* EducationViewController.swift in Sources */,
+				4B8973732747DAEB00F397C1 /* SendMessageViewController.swift in Sources */,
 				4BFD9B232739461100E91159 /* SceneDelegate.swift in Sources */,
+				4B8973712747C67300F397C1 /* Env.swift in Sources */,
 				4B47B28127466A75006FFBFC /* SettingViewController.swift in Sources */,
 				4B8BA26627439B18002F63F7 /* LoginViewController.swift in Sources */,
 				4B8BA26B2743B4EF002F63F7 /* ViewExtension.swift in Sources */,

@@ -11,7 +11,7 @@ import Foundation
 class WordType{
     
     func getWordType(clouser: @escaping(_ content: [WordTypeModel]?) -> ()){
-        var request = URLRequest(url: URL(string: "http://94.228.124.99/api/wordsTypes")!,timeoutInterval: 10)
+        var request = URLRequest(url: URL(string: "\(Env.baseUrl)/wordsTypes")!,timeoutInterval: 10)
         request.httpMethod = "GET"
 
         URLSession.shared.dataTask(with: request) { data, response, error in
