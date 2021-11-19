@@ -28,10 +28,14 @@ class ProfilViewController: UIViewController {
         let count = Words().studyWordAll()
         let toDayCount = Words().studyWordDay()
         
-        let allToDayCount = UserDefaults().integer(forKey: "userWordCount")
+        var allToDayCount = UserDefaults().integer(forKey: "userWordCount")
+        if allToDayCount <= 0{
+            allToDayCount = 10
+        }
         
-        toDayProgress.progress = Float((100 / allToDayCount) * toDayCount)
-        allProgress.progress = Float((100 / count[1]) * count[0])
+        
+        toDayProgress.progress = Float(toDayCount) / Float(allToDayCount)
+        allProgress.progress = Float(count[0] / count[1])
     }
 
     

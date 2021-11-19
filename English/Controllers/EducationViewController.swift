@@ -61,10 +61,10 @@ extension EducationViewController: UICollectionViewDataSource, UICollectionViewD
                             
                             self.show(vc, sender: nil)
                         }else{
-                            self.sendError(message: "Нет слов что бы изучить, повторайте старые слова!")
+                            self.sendError(title: "Внимание", message: "Нет слов что бы изучить, повторайте старые слова!")
                         }
                     }else{
-                        self.sendError(message: "Нет слов что бы изучить, повторайте старые слова")
+                        self.sendError(title: "Внимание", message: "Нет слов что бы изучить, повторайте старые слова")
                     }
                 }
             }
@@ -80,10 +80,10 @@ extension EducationViewController: UICollectionViewDataSource, UICollectionViewD
                             
                             self.show(vc, sender: nil)
                         }else{
-                            self.sendError(message: "Нет слов что бы закрепить, сначала изучите новые слова!")
+                            self.sendError(title: "Внимание", message: "Нет слов что бы закрепить, сначала изучите новые слова!")
                         }
                     }else{
-                        self.sendError(message: "Нет слов что бы закрепить, сначала изучите новые слова!")
+                        self.sendError(title: "Внимание", message: "Нет слов что бы закрепить, сначала изучите новые слова!")
                     }
                 }
             }
@@ -99,10 +99,10 @@ extension EducationViewController: UICollectionViewDataSource, UICollectionViewD
                             
                             self.show(vc, sender: nil)
                         }else{
-                            self.sendError(message: "Нет слов что бы повторить, сначала изучите новые слова!")
+                            self.sendError(title: "Внимание", message: "Нет слов что бы повторить, сначала изучите новые слова!")
                         }
                     }else{
-                        self.sendError(message: "Нет слов что бы повторить, сначала изучите новые слова!")
+                        self.sendError(title: "Внимание", message: "Нет слов что бы повторить, сначала изучите новые слова!")
                     }
                 }
             }
